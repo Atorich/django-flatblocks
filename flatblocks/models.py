@@ -35,7 +35,6 @@ class BaseFlatBlock(models.Model):
         abstract = True
 
 
-@python_2_unicode_compatible
 class FlatBlock(BaseFlatBlock):
     class Meta:
         verbose_name = _('Flat block')
