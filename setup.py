@@ -43,8 +43,10 @@ setup(
         ]
     },
     zip_safe=False,
-    requires = [
+    requires=[
         'Django (>=1.4)',
-        'swapper (==0.3.0)',
+    ],
+    install_requires=[
+        'swapper>=0.3,<0.4',
     ],
 )
