@@ -45,5 +45,6 @@ setup(
     zip_safe=False,
     requires = [
         'Django (>=1.4)',
+        'swapper (==0.3.0)',
     ],
 )
